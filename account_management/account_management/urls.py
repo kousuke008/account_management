@@ -5,5 +5,5 @@ from myapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.account_management, name='account_management'),
-    path('tools/', views.tools, name='tools'),
+    path('cooldown/', views.tools, name='tools'),
 ]
