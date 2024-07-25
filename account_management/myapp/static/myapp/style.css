@@ -1,0 +1,16 @@
+.container {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.btn-bottom-left {
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
+.btn-bottom-right {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
